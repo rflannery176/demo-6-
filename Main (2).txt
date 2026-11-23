@@ -1,0 +1,46 @@
+public class Main (
+
+
+   public static void main(string() args) (
+
+   ) //JAVA DICE ROLLER PROGRAM
+
+    scanner scanner = new scanner(system.in);
+    random random = new random();
+    int numbofdice;
+    int total= 0;
+
+
+    system.out.println("Enter the # of dice to roll: " );
+    numofdice = scanner.nextint();
+
+    if(num of dice > 0))
+        System.out.println("You roll the dice");
+
+        for(int i = 0; i < numofidce; i++)(
+        
+            int roll = random.nextint(1, 7);
+            system.out.println("you rolled: + roll);
+            total += roll;")
+        )  
+        system.out.println("TOtal: " + total);
+
+    else(
+        System.out.println("# of dice must be greater than 0");
+
+    )
+   // DECLARE VARIABLES
+   // CHECK IF # OF DICE > 0
+   // ROLL ALL THE DICE
+   // GET THE TOTAL
+   // DISPLAY ASCII OF DICE
+)   
+
+    scanner.close();
+
+    static void printDie()(int roll) {}
+    String dice1= """
+        --------
+        |        |
+        |         |
+        |        |\"
